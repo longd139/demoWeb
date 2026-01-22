@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Monsieur+La+Doulaise&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <div
+      class="w-full h-20 bg-white fixed z-2 flex justify-between items-center px-16 header"
+    >
+      <!-- left-side -->
+      <div class="w-70 h-full">
+        <ul class="flex justify-between items-center h-full list_tab">
+          <li>
+            <a
+              class="transition-all duration-300 hover:[text-shadow:0_0_1px_currentColor]"
+              href="#"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              class="transition-all duration-300 hover:[text-shadow:0_0_1px_currentColor]"
+              href="#"
+              >Shop</a
+            >
+          </li>
+          <li>
+            <a
+              class="transition-all duration-300 hover:[text-shadow:0_0_1px_currentColor]"
+              href="#"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              class="transition-all duration-300 hover:[text-shadow:0_0_1px_currentColor]"
+              href="#"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- middle-side -->
+      <div class="w-70 flex justify-center">
+        <!-- logo img -->
+        <img class="w-20" src="./img/home_tab/LOGO-EMAR.png" alt="" />
+      </div>
+      <!-- right-side -->
+      <div class="h-full w-70 flex items-center justify-start">
+        <!-- search -->
+        <div class="w-7 mr-15">
+          <a href="#"><img src="./img/home_tab/search_icon.png" alt="" /></a>
+        </div>
+        <!-- items -->
+        <div class="w-7">
+          <a href="#"><img src="./img/home_tab/shopping-cart.png" alt="" /></a>
+        </div>
+      </div>
+    </div>
+    <!-- content -->
+    <!-- background -->
+    <div class="relative h-screen overflow-hidden">
+      <div class="absolute z-0">
+        <img
+          class="brightness-70"
+          src="./img/home_tab/pexels-castorlystock-3641064.jpg"
+          alt=""
+        />
+      </div>
+      <!-- word -->
+      <div
+        class="w-full h-full absolute z-1 flex justify-center items-center flex-col"
+      >
+        <h2
+          style="
+            font-family:
+              Monsieur La Doulaise,
+              cursive;
+            font-size: 200px;
+            color: white;
+          "
+        >
+          Jewelry
+        </h2>
+
+        <h1
+          style="
+            position: absolute;
+            z-index: 1;
+            top: 27rem;
+            font-family:
+              DM Serif Text,
+              serif;
+            font-size: 100px;
+            color: white;
+          "
+        >
+          Made for You
+        </h1>
+      </div>
+    </div>
+
+    <!-- items-cart -->
+    <div class="bg-white h-screen w-full mb-50">
+      <!-- top -->
+      <div class="h-1/2">
+        <!-- carts -->
+        <div class="pt-10" style="background-color: #fafafa">
+          <section class="splide" aria-label="Basic Structure Example">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <a href=""><img src="./img/nhan/pic1.jpg" alt="" /></a>
+                </li>
+                <li class="splide__slide">
+                  <a href=""><img src="./img/nhan/pic2.jpg" alt="" /></a>
+                </li>
+                <li class="splide__slide">
+                  <a href=""><img src="./img/nhan/pic3.jpg" alt="" /></a>
+                </li>
+                <li class="splide__slide">
+                  <a href=""><img src="./img/nhan/pic4.jpg" alt="" /></a>
+                </li>
+                <li class="splide__slide">
+                  <a href=""><img src="./img/nhan/pic5.jpg" alt="" /></a>
+                </li>
+                <li class="splide__slide">
+                  <a href=""><img src="./img/nhan/pic6.jpg" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+      <!-- bottom -->
+      <div class="w-full px-8 flex justify-center items-center">
+        <!-- left-side -->
+        <div class="w-1/2 flex justify-center">
+          <img class="w-1/2" src="./img/daychuyen/deoco.jpg" alt="" />
+        </div>
+        <!-- right-side -->
+        <div class="w-1/2">
+          <p class="text-2xl pl-5" style="font-family: Oswald, sans-serif">
+            Thiết kế tinh tế với điểm nhấn là cụm đá pha lê lấp lánh được tạo
+            hình như cánh hoa mềm mại, chiếc dây chuyền mang đến vẻ đẹp nhẹ
+            nhàng nhưng đầy cuốn hút. Tông vàng sang trọng kết hợp cùng chi tiết
+            đá rơi nhỏ xinh giúp tôn lên nét nữ tính và thanh lịch cho người
+            đeo. Phù hợp để sử dụng hằng ngày hoặc làm điểm nhấn hoàn hảo cho
+            những dịp đặc biệt. Một món trang sức nhỏ gọn nhưng đủ để làm nổi
+            bật phong cách của bạn.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div
+      class="w-full h-40 px-10 flex justify-around"
+      style="background-color: #ede6ca; font-family: Oswald, sans-serif"
+    >
+      <!-- left-side -->
+      <div class="w-auto h-full text-2xl flex flex-col justify-center pl-5">
+        <h2 style="padding-bottom: 1rem">HOTLINE TƯ VẤN</h2>
+        <h3 style="font-weight: bolder; padding-bottom: 1rem">0123.456.789</h3>
+        <p style="color: rgb(83, 83, 83)">
+          09:00 - 20:30 | Tất cả các ngày trong tuần
+        </p>
+      </div>
+
+      <div class="w-auto h-full text-2xl flex flex-col justify-center pl-5">
+        <h2 style="padding-bottom: 1rem">HOTLINE TƯ VẤN</h2>
+        <h3 style="font-weight: bolder; padding-bottom: 1rem">0123.456.789</h3>
+        <p style="color: rgb(83, 83, 83)">
+          09:00 - 20:30 | Tất cả các ngày trong tuần
+        </p>
+      </div>
+
+      <!-- right-side -->
+    </div>
+    <!-- more info -->
+    <footer class="bg-white border-t mt-16">
+      <div class="max-w-7xl mx-auto px-6 py-12">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-xl text-gray-800"
+        >
+          <!-- Cột 1: Thông tin liên hệ -->
+          <div>
+            <p class="mb-4 text-gray-600">
+              Aris Jewelry tự hào là một trong những thương hiệu tiên phong
+              trong lĩnh vực nhẫn cưới tại Việt Nam
+            </p>
+
+            <p class="font-semibold mt-4">TP.HCM</p>
+
+            <p class="mt-3">Tư vấn (9:00 - 20:30):</p>
+            <p class="font-semibold">0123.456.789</p>
+
+            <p class="mt-3">Góp ý (9:00 - 20:30):</p>
+            <p class="font-semibold">0123.456.789</p>
+
+            <p class="mt-3 text-blue-600">tuvan@arisjewelry.com</p>
+          </div>
+
+          <!-- Cột 2: Về chúng tôi -->
+          <div>
+            <h3 class="font-bold text-lg mb-4">Về chúng tôi</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="hover:text-yellow-600">Giới Thiệu về AJ</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-yellow-600">Vì Sao Nên Chọn AJ</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-yellow-600">12 Cam Kết Vàng</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-yellow-600"
+                  >6 Giá Trị Dành Cho Khách Hàng</a
+                >
+              </li>
+              <li><a href="#" class="hover:text-yellow-600">E-catalogue</a></li>
+              <li>
+                <a href="#" class="hover:text-yellow-600"
+                  >Giá Trị Thực Tạo Niềm Tin</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Cột 3: Dịch vụ khách hàng -->
+          <div>
+            <h3 class="font-bold text-lg mb-4">Dịch vụ khách hàng</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="hover:text-yellow-600"
+                  >Chính Sách Bảo Hành & Bảo Hiểm</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-yellow-600"
+                  >Chính Sách Love Passport</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-yellow-600">Chính Sách 6025</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-yellow-600">Chính Sách Bảo Mật</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-yellow-600"
+                  >Cách Thức Giao Hàng</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-yellow-600"
+                  >Đặt Nhẫn Cưới Theo Yêu Cầu</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-yellow-600"
+                  >Hình Thức Thanh Toán</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-yellow-600"
+                  >Quy trình tiếp nhận, xử lý khiếu nại</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Cột 4: Hỗ trợ khách hàng -->
+          <div>
+            <h3 class="font-bold text-lg mb-4">Hỗ trợ khách hàng</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="hover:text-yellow-600"
+                  >Hướng Dẫn Đo Size Nhẫn</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-yellow-600"
+                  >Bí quyết chọn nhẫn cưới phù hợp</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-yellow-600">Quy Trình Đặt Hàng</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-yellow-600"
+                  >Hiểu Đúng Về Kim Cương Thiên Nhiên</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-yellow-600">Chính Sách Thu Đổi</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-yellow-600"
+                  >Hướng Dẫn Mua Hàng Online</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
